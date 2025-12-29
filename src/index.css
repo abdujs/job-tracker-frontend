@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #3b82f6;
+  --color-secondary: #8b5cf6;
+  --color-accent: #f59e42;
+  --spacing-base: 1rem;
+  --spacing-lg: 2rem;
+  /* Add more tokens as needed */
+}
+
+.custom-box {
+  background: var(--color-secondary);
+  padding: var(--spacing-lg);
+}
